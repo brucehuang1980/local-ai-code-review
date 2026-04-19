@@ -1,0 +1,9 @@
+review:
+  # 審查報告語言（zh-TW / en）
+  language: zh-TW
+
+  # 單次送給 LLM 的最大 diff 行數；超過時自動分段
+  max_diff_lines: 500
+
+  # 輸出格式（目前支援 markdown）
+  output: markdown
